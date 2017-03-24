@@ -14,7 +14,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2012
 
 # icon between year and author @Footer
 authoricon: heart
@@ -38,12 +38,13 @@ seo: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories
+  categories: /categories
   #about: /about
   archives: /archives
   tags: /tags
+  about: /about
   #sitemap: /sitemap.xml
-  #commonweal: /404.html
+  commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -71,7 +72,7 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+scheme: Mist
 #scheme: Mist
 #scheme: Pisces
 
@@ -138,6 +139,11 @@ font:
 
 
 # Social Links Icons
+# Social links
+social:
+  GitHub: https://github.com/williamjoe
+  LinkedIn: https://www.linkedin.com/in/william-zhou-b16613a5/
+  Facebook: https://www.facebook.com/zhouchenxiazj
 # Icon Mapping:
 #   Map a menu item to a specific FontAwesome icon name.
 #   Key is the name of the item and value is the name of FontAwesome icon. Key is case-senstive.
@@ -146,15 +152,17 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  GitHub: github
+  GitHub: github-square
   Twitter: twitter
   Weibo: weibo
+  Facebook: facebook-square
+  LinkedIn: linkedin-square
 
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: https://xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/avatar.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -268,7 +276,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night bright
 
 
 # ---------------------------------------------------------------
@@ -451,7 +459,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
 
 # External URL with BASE64 encrypt & decrypt
 # Usage: {% exturl text url "title" %}
@@ -524,7 +532,9 @@ vendors:
   # https://github.com/hustcc/canvas-nest.js
   canvas_nest:
 
-
+reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+wechatpay: https://xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/wechat.png
+#alipay: /path/to/alipay-reward-image
 
 # Assets
 css: css
