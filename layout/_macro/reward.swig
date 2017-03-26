@@ -6,9 +6,9 @@
     </button>
     <div id="QR" style="display: none;">
       {% if theme.wechatpay %}
-        <div id="wechat" style="display: inline-block">
+        <div id="wechat_img" style="display: inline-block">
           <img id="wechat_qr" src="{{ theme.wechatpay }}" alt="{{ theme.author }} WeChat Pay"/>
-          <p>微信打赏</p>
+          <p>微信长按识别二维码打赏</p>
         </div>
       {% endif %}
       {% if theme.alipay %}
