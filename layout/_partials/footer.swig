@@ -19,4 +19,7 @@
     NexT.{{ theme.scheme }}
   </a>
 </div>
+
+<script async src="https://xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/busuanzi.pure.mini.js">
+</script>
 {% endif %}

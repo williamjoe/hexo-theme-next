@@ -78,4 +78,5 @@
   {% include '_third-party/mathjax.swig' %}
   {% include '_third-party/exturl.swig' %}
 </body>
+<script type="text/javascript" src="/js/src/particle.js"></script>
 </html>

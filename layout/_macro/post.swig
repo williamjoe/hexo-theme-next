@@ -111,6 +111,10 @@
                 {% endif %}
               {% endfor %}
             </span>
+		  {% endif %}
+			
+		  {% if not is_index %}
+			<span id="busuanzi_container_page_pv">  |  阅读 <span id="busuanzi_value_page_pv"></span> 次</span>
           {% endif %}
 
           {% if post.comments %}
@@ -196,6 +200,7 @@
                  <span class="post-meta-item-text">{{__('post.visitors')}} </span>
                {% endif %}
                  <span class="leancloud-visitors-count"></span>
+				 <span>℃</span>
              </span>
           {% endif %}
 
