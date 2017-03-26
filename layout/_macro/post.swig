@@ -114,7 +114,7 @@
 		  {% endif %}
 			
 		  {% if not is_index %}
-			<span id="busuanzi_container_page_pv">  |  阅读 <span id="busuanzi_value_page_pv"></span> 次</span>
+			<span id="busuanzi_container_page_pv">   |  阅读 <span id="busuanzi_value_page_pv"></span> 次</span>
           {% endif %}
 
           {% if post.comments %}
