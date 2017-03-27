@@ -7,6 +7,11 @@
 
 <html class="{{ html_class | lower }}" lang="{{ config.language }}">
 <head>
+  <script type="text/javascript">
+      var host = "www.xeworld.com";
+      if ((host == window.location.host))
+          window.location.host = "xeworld.com";
+  </script>
   {% include '_partials/head.swig' %}
   <title>{% block title %}{% endblock %}</title>
 </head>
