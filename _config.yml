@@ -89,7 +89,7 @@ font:
   enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
-  host:
+  host: //xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/font
 
   # Global font settings used on <body> element.
   global:
@@ -523,11 +523,11 @@ vendors:
 
   # Internal version: 0.7.9
   # See: https://faisalman.github.io/ua-parser-js/
-  ua_parser: //cdn.jsdelivr.net/ua-parser.js/0.7.10/ua-parser.min.js
+  ua_parser: //xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/ua-parser.js/0.7.10/ua-parser.min.js
 
   # Internal version: 4.6.2
   # See: http://fontawesome.io/
-  fontawesome:
+  fontawesome: //xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/font-awesome/4.6.2/css/font-awesome.min.css
 
   # Internal version: 1
   # https://www.algolia.com
@@ -541,6 +541,9 @@ vendors:
   #three
   three:
   three_waves:
+  
+  # Theme CSS
+  themecss: //xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/css/main.css
 
 reward_comment:
 wechatpay: https://xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/wechat.png
