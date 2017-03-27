@@ -523,7 +523,7 @@ vendors:
 
   # Internal version: 0.7.9
   # See: https://faisalman.github.io/ua-parser-js/
-  ua_parser: //xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/ua-parser.js/0.7.10/ua-parser.min.js
+  ua_parser:
 
   # Internal version: 4.6.2
   # See: http://fontawesome.io/
