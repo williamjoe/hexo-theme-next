@@ -78,5 +78,5 @@
   {% include '_third-party/mathjax.swig' %}
   {% include '_third-party/exturl.swig' %}
 </body>
-<script type="text/javascript" src="{{ theme.qihu_site_verification }}" + "/js/src/particle.js"></script>
+<script type="text/javascript" src="{{ theme.js }}" + "/src/particle.js"></script>
 </html>
