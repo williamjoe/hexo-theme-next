@@ -162,7 +162,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-avatar: https://xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/avatar.jpg
+avatar: //xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/avatar.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -182,8 +182,8 @@ creative_commons: by-nc-sa
 
 sidebar:
   # Sidebar Position, available value: left | right
-  position: left
-  #position: right
+  #position: left
+  position: right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
