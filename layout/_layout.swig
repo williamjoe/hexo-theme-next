@@ -9,7 +9,7 @@
 <head>
   <script type="text/javascript">
       var host = "www.xeworld.com";
-      if ((host == window.location.host))
+      if (("www.xeworld.com" == window.location.host) || ("williamjoe.github.io" == window.location.host))
           window.location.host = "xeworld.com";
   </script>
   {% include '_partials/head.swig' %}
