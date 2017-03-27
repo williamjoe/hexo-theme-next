@@ -543,7 +543,7 @@ vendors:
   three_waves:
 
 reward_comment:
-wechatpay: https://xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/wechat.png
+wechatpay: //xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/wechat.png
 #alipay: /path/to/alipay-reward-image
 
 # Assets
