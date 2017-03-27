@@ -551,8 +551,8 @@ wechatpay: https://xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/wechat.png
 
 # Assets
 css: css
-js: js
-images: images
+js: //xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/js
+images: //xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/images
 
 # Theme version
 version: 5.1.0
