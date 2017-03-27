@@ -44,11 +44,7 @@
 {% endif %}
 <link href="{{ font_awesome_uri }}" rel="stylesheet" type="text/css" />
 
-{% set theme_css_uri = url_for(theme.css + '/main.css?v=theme.version') %}
-{% if theme.vendors.themecss %}
-  {% set theme_css_uri = theme.vendors.themecss %}
-{% endif %}
-<link href="{{ theme_css_uri }}" rel="stylesheet" type="text/css" />
+<link href="{{ url_for(theme.css) }}/main.css?v={{ theme.version }}" rel="stylesheet" type="text/css" />
 
 {% if page.keywords %}
   <meta name="keywords" content="{{ page.keywords }}" />

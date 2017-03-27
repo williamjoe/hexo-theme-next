@@ -550,7 +550,7 @@ wechatpay: https://xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/wechat.png
 #alipay: /path/to/alipay-reward-image
 
 # Assets
-css: css
+css: //xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/css
 js: //xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/js
 images: //xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/images
 
