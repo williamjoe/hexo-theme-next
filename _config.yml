@@ -88,8 +88,8 @@ scheme: Mist
 font:
   enable: true
 
-  # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
-  host: //lawoftech.oss-cn-shanghai.aliyuncs.com/xeworld/fonts
+  # Uri of fonts host. E.g. //fonts.googleapis.com/ (Default)
+  host: //lawoftech.oss-cn-shanghai.aliyuncs.com/xeworld/fonts/fonts.
 
   # Global font settings used on <body> element.
   global:
