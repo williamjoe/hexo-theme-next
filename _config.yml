@@ -549,7 +549,7 @@ wechatpay: //xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/wechat.png
 # Assets
 css: //xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/css
 js: //xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/js
-images: //xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/images
+images: //lawoftech.oss-cn-shanghai.aliyuncs.com/images
 
 # Theme version
 version: 5.1.0
