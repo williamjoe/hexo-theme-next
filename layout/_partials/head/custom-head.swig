@@ -6,8 +6,8 @@ Custom head.
   if (("www.xeworld.com" == window.location.host) || ("williamjoe.github.io" == window.location.host))
 	  window.location.host = "xeworld.com";
 </script>
-<meta name=”apple-mobile-web-app-capable” content=”yes” />   
-<meta name=”apple-mobile-web-app-status-bar-style” content=black” /> 
+<meta name="apple-mobile-web-app-capable" content="yes" />   
+<meta name="apple-mobile-web-app-status-bar-style" content=black" /> 
 <link rel="apple-touch-icon" sizes="57x57" href="https://lawoftech.oss-cn-shanghai.aliyuncs.com/xeworld/icons/apple/apple-touch-icon-57x57.png?v=gAAmLMYXpw">
 <link rel="apple-touch-icon" sizes="60x60" href="https://lawoftech.oss-cn-shanghai.aliyuncs.com/xeworld/icons/apple/apple-touch-icon-60x60.png?v=gAAmLMYXpw">
 <link rel="apple-touch-icon" sizes="72x72" href="https://lawoftech.oss-cn-shanghai.aliyuncs.com/xeworld/icons/apple/apple-touch-icon-72x72.png?v=gAAmLMYXpw">
