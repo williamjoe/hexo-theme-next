@@ -8,6 +8,23 @@ Custom head.
 </script>
 <meta name="apple-mobile-web-app-capable" content="yes" />   
 <meta name="apple-mobile-web-app-status-bar-style" content=black" /> 
+<script type="text/javascript">
+//iOS Web APP中点击链接跳转到Safari 浏览器新标签页的问题
+if(("standalone" in window.navigator) && window.navigator.standalone){
+var noddy, remotes = false;
+document.addEventListener('click', function(event) {
+noddy = event.target;
+while(noddy.nodeName !== "A" && noddy.nodeName !== "HTML") {
+noddy = noddy.parentNode;
+}
+if('href' in noddy && noddy.href.indexOf('http') !== -1 && (noddy.href.indexOf(document.location.host) !== -1 || remotes))
+{
+event.preventDefault();
+document.location.href = noddy.href;
+}
+},false);
+}
+</script>
 <link rel="apple-touch-icon" sizes="57x57" href="https://lawoftech.oss-cn-shanghai.aliyuncs.com/xeworld/icons/apple/apple-touch-icon-57x57.png?v=gAAmLMYXpw">
 <link rel="apple-touch-icon" sizes="60x60" href="https://lawoftech.oss-cn-shanghai.aliyuncs.com/xeworld/icons/apple/apple-touch-icon-60x60.png?v=gAAmLMYXpw">
 <link rel="apple-touch-icon" sizes="72x72" href="https://lawoftech.oss-cn-shanghai.aliyuncs.com/xeworld/icons/apple/apple-touch-icon-72x72.png?v=gAAmLMYXpw">
