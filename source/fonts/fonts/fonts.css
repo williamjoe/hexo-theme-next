@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(Noto+Sans_400_normal.eot); /* {{embedded-opentype-gf-url}} */
+    src: local('☺'),
+        url(Noto+Sans_400_normal.eot?#iefix) format('embedded-opentype'), /* {{embedded-opentype-gf-url}} */
+        url(Noto+Sans_400_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/notosans/v6/LeFlHvsZjXu2c3ZRgBq9nD8E0i7KZn-EPnyo3HZu7kw.woff */
+        url(Noto+Sans_400_normal.ttf) format('truetype'), /* http://fonts.gstatic.com/s/notosans/v6/LeFlHvsZjXu2c3ZRgBq9nCZ2oysoEQEeKwjgmXLRnTc.ttf */
+        url(Noto+Sans_400_normal.svg#Noto+Sans_400_normal) format('svg'); /* http://fonts.gstatic.com/l/font?kit=LeFlHvsZjXu2c3ZRgBq9nJbd9NUM7myrQQz30yPaGQ4&skey=2b960fe17823056f&v=v6#NotoSans */
+}
