@@ -221,6 +221,9 @@ sidebar:
 # Automatically scroll page to section which is under <!-- more --> mark.
 scroll_to_more: true
 
+# Automatically saving scroll position on each post/page in cookies.
+save_scroll: false
+
 # Automatically excerpt description in homepage as preamble text.
 excerpt_description: true
 
@@ -487,6 +490,10 @@ canvas_nest: false
 #three_waves
 three_waves: false
 
+# Only fit scheme Pisces
+# Canvas-ribbon
+canvas_ribbon: true
+
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
 # For example
@@ -537,7 +544,7 @@ vendors:
   # Internal version: 1.0.0
   # https://github.com/hustcc/canvas-nest.js
   canvas_nest:
-  
+
   #three
   three:
   three_waves:
