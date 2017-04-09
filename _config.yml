@@ -167,7 +167,7 @@ avatar: //file.xeworld.com/sources/site/avatar.jpg
 
 # Table Of Contents in the Sidebar
 toc:
-  enable: true
+  enable: false
 
   # Automatically add list number to toc.
   number: true
