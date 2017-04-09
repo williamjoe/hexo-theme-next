@@ -167,10 +167,10 @@ avatar: //file.xeworld.com/sources/site/avatar.jpg
 
 # Table Of Contents in the Sidebar
 toc:
-  enable: false
+  enable: true
 
   # Automatically add list number to toc.
-  number: true
+  number: false
 
 
 # Creative Commons 4.0 International License.
