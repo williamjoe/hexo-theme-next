@@ -89,7 +89,7 @@ font:
   enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com/ (Default)
-  host: //file.xeworld.com/sources/site/fonts/fonts.
+  host: //xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/fonts/fonts.
 
   # Global font settings used on <body> element.
   global:
@@ -162,7 +162,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-avatar: //file.xeworld.com/sources/site/avatar.jpg
+avatar: //xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/avatar.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -502,7 +502,7 @@ canvas_ribbon: true
 # Please use the https protocol of CDN files when you enable https on your site.
 vendors:
   # Internal path prefix. Please do not edit it.
-  _internal: //file.xeworld.com/sources/site/lib
+  _internal: //xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/lib
 
   # Internal version: 2.1.3
   jquery:
@@ -550,13 +550,13 @@ vendors:
   three_waves:
 
 reward_comment:
-wechatpay: //file.xeworld.com/sources/site/wechat.png
+wechatpay: //xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/wechat.png
 #alipay: /path/to/alipay-reward-image
 
 # Assets
-css: //file.xeworld.com/sources/site/css
-js: //file.xeworld.com/sources/site/js
-images: //file.xeworld.com/sources/site/images
+css: //xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/css
+js: //xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/js
+images: //xeworld.oss-cn-hangzhou.aliyuncs.com/sources/site/images
 
 # Theme version
 version: 5.1.0
